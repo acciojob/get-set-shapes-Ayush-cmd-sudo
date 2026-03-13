@@ -4,14 +4,14 @@ constructor(width,height){
 	this.x=width;
 	this.y=height;
 }
-width(){
+getWidth(){
 	console.log("width",this.x);
 }
-	height(){
+	getHeight(){
 		console.log("height",this.y);
 	}
 
-getarea(){
+getArea(){
 	console.log("The area of the rectangle is :",this.x*this.y);
 }
 	
