@@ -4,10 +4,10 @@ constructor(width,height){
 	this.x=width;
 	this.y=height;
 }
-get Width(){
+get width(){
 	return(this.x);
 }
-	getHeight(){
+get height(){
 		return(this.y);
 	}
 
