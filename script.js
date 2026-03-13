@@ -5,14 +5,14 @@ constructor(width,height){
 	this.y=height;
 }
 getWidth(){
-	console.log("width",this.x);
+	return(this.x);
 }
 	getHeight(){
-		console.log("height",this.y);
+		return(this.y);
 	}
 
 getArea(){
-	console.log("The area of the rectangle is :",this.x*this.y);
+    return(this.x*this.y);
 }
 	
 }
@@ -22,7 +22,7 @@ constructor(side){
 	super(side,side);
 }	
 getPerimeter(){
-	console.log(4*side);
+	return(4*side);
 }
 
 
